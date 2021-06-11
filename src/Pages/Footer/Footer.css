@@ -1,0 +1,48 @@
+footer {
+  width: 100%;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+  flex-direction: column;
+}
+footer h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 2%;
+}
+footer p {
+  margin: 0px;
+  font-size: 50%;
+}
+
+footer span {
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+footer .links {
+  margin-left: auto;
+}
+footer .links a {
+  margin: 0px 10px;
+}
+
+#footerHeader {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.icon {
+  object-fit: contain;
+  max-width: 9%;
+}
+
+.sns {
+  width: 4%;
+  object-fit: contain;
+}
+
+footer a {
+  color: inherit;
+}

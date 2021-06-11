@@ -1,0 +1,19 @@
+#section1 {
+  background-color: black;
+}
+
+#section2 {
+  background-color: gray;
+  text-align: center;
+}
+
+.hometitle {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.homesubtitle {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
