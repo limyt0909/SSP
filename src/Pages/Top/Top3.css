@@ -1,0 +1,45 @@
+.mainmenu {
+  display: block;
+  background-color: darkviolet;
+}
+.mainmenu ul {
+  list-style: none;
+  background-color: inherit;
+}
+.mainmenu ul li {
+  float: left;
+  background-color: inherit;
+}
+.submenu {
+  display: block;
+  clear: left;
+}
+.dropdown {
+  display: block;
+  background-color: darkgray;
+}
+
+.dropdown ul {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.degree span::after {
+  content: "";
+  width: 10px; /* 사이즈 */
+  height: 10px; /* 사이즈 */
+  border-top: 2px solid white; /* 선 두께 */
+  border-right: 2px solid white; /* 선 두께 */
+  display: inline-block;
+  transform: rotate(135deg); /* 각도 */
+  margin: 0 10px;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}

@@ -4,6 +4,8 @@ import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverf
 import ReactFullpage from "@fullpage/react-fullpage";
 import "./Home.css";
 import Footer from "../Footer/Footer";
+
+const anchors = ["firstPage", "secondPage", "thirdPage"];
 class FullpageWrapper extends React.Component {
   onLeave(origin, destination, direction) {
     console.log("Leaving section " + origin.index);
@@ -23,6 +25,9 @@ class FullpageWrapper extends React.Component {
         <ReactFullpage
           scrollOverflow={true}
           onLeave={this.onLeave.bind(this)}
+          anchors={anchors}
+          navigation
+          navigationTooltips={anchors}
           afterLoad={this.afterLoad.bind(this)}
           render={({ state, fullpageApi }) => {
             return (
